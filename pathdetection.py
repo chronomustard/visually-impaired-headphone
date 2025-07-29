@@ -10,8 +10,8 @@ import supervision as sv
 from ultralytics import YOLO
 from playsound import playsound
 
-TELE_TOKEN = "7277909972:AAFjj5meKrGqF5msuvmaxUx5prRxseIPWdE"
-CHAT_ID = "5634015200"
+TELE_TOKEN = ""
+CHAT_ID = ""
 message = "Help requested!"
 url = f"https://api.telegram.org/bot{TELE_TOKEN}/sendMessage?chat_id={CHAT_ID}&text={message}"
 print(requests.get(url).json())
